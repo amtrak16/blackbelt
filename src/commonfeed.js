@@ -52,7 +52,7 @@ class CommonFeed extends Component {
                   <div key={idx} className="row">
                     <div className="small-3 columns">
                       <div className="card">
-                        <img className="flagimg" src={article.urlToImage} alt="Not found"></img>
+                        <img className="artcleimg" src={article.urlToImage} alt="Not found"></img>
                       </div>
                     </div>
                     <div className="small-9 columns">

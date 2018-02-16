@@ -18,6 +18,7 @@ class Customize extends Component {
       articles: [],
       trackedArticles: [],
       curCategory: 'Business',
+      categories: ['Business', 'Technology', 'Science']
     }
 
     this.getArticles = this.getArticles.bind(this)
